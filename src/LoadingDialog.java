@@ -1,9 +1,9 @@
 import javax.swing.*;
 
-public class hahaha {
+public class LoadingDialog {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("hahaha");
-        frame.setContentPane(new hahaha().panel1);
+        JFrame frame = new JFrame("LoadingDialog");
+        frame.setContentPane(new LoadingDialog().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
@@ -14,6 +14,6 @@ public class hahaha {
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
-        panel2 = new TreeChart();
+        panel2 = new LoadPanel();
     }
 }
